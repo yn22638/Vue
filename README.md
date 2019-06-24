@@ -1,8 +1,7 @@
-# 任务分配
-* 张天庆 功能介绍的md格式
-* 周宏政 功能介绍的流程图
-* 刘轩睿 暂无
-* 王子建 暂无
+# 目录
+* Function Map:功能图
+* Task Allocation:任务分配
+* Vue Webpage:完善的Vue项目
 # 学生管理系统
 ### 1.前端网页掌握技能
     前端vue + vue-router + element-ui + axios
