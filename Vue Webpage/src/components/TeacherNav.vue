@@ -1,14 +1,14 @@
 <template>
-  <div class="HomeNav">
+  <div class="TeacherNav">
     <ul>
-      <li :style="[bgc]">
+      <li >
         <router-link to="Home" :style="[color]">{{shouye}}</router-link>
       </li>
       <li>
         <router-link to="/">{{student}}</router-link>
       </li>
-      <li>
-        <router-link to="/Teachers">{{teacher}}</router-link>
+      <li :style="[bgc]" >
+        <router-link class="teachers" to="/Teachers">{{teacher}}</router-link>
       </li>
       <li>
         <router-link to="/">{{liuyan}}</router-link>
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "HomeNav",
+  name: "TeacherNav",
   data() {
     return {
       shouye: "首页",
@@ -35,7 +35,7 @@ export default {
       school: "校园论坛",
       shezhi: "设置",
       color:"",
-      color: { color: "white" },
+      color: { color: "#51515d" },
       bgc : {"background-color":"#171746"},
     };
   },
@@ -50,21 +50,21 @@ export default {
 </script>
 
 <style>
-.HomeNav {
+.TeacherNav {
   float: left;
   width: 8.9%;
   height: 95.4%;
   background-color: #090919;
   float: left;
 }
-.HomeNav ul {
+.TeacherNav ul {
   width: 100%;
   height: 36%;
   text-align: center;
   list-style: none;
   margin-top: 50px;
 }
-.HomeNav ul li {
+.TeacherNav ul li {
   height: 17%;
   line-height: 65px;
 }
@@ -72,9 +72,12 @@ export default {
   background-color: #171746;
   color: white;
 } */
-.HomeNav ul li a {
+.TeacherNav ul li a {
   text-decoration: none;
   color: #51515d;
+}
+.TeacherNav li  .teachers{
+    color: aliceblue;
 }
 /* .HomeNav ul li a:hover {
   color: white;

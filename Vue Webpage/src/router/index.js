@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Sing_in from '../views/Sing_in.vue'
 import Home_page from '../views/Home_page.vue'
 import ditu from '../views/ditu.vue'
+import Teachers from '../views/Teachers.vue'
 
 Vue.use(Router)
 
@@ -24,5 +25,11 @@ export default new Router({
             name: 'ditu',
             component: ditu
         },
+        {
+            path: '/Teachers',
+            name: 'Teachers',
+            component: Teachers
+        },
+
     ]
 })
