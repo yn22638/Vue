@@ -300,7 +300,7 @@ export default {
 .HomeCont .footer {
   width: 100%;
   height: 47.4%;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 .HomeCont .footer .left {
   float: left;

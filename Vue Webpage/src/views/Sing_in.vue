@@ -199,7 +199,7 @@ export default {
 
 .Sing_in .copyright {
   width: 100%;
-  margin-top: 15.2%;
+  margin-top: 10.2%;
 }
 .Sing_in .copyright ul {
   margin-left: 45%;
