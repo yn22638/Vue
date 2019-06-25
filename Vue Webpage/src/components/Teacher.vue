@@ -8,7 +8,7 @@ export default {
 name:"Teacher",
 data(){
     return{
-        a:"你好"
+        a:"刘轩睿贼帅"
     }
 }
 }

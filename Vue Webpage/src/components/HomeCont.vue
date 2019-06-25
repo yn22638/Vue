@@ -110,7 +110,7 @@
         <img :src="pic" alt>
       </div>
       <div class="right">
-        <h5>{{jianjie}}</h5>
+        <h5>{{zilaio}}</h5>
         <hr>
         <p>
           <strong>重庆市江津中学创建于1906年（清光绪32年）1953年即为四川省重点中学，重庆直辖后</strong>
@@ -184,7 +184,8 @@ export default {
     return {
       School_Information: "学校信息",
       School_location: "学校位置",
-      jianjie: "学校简介",
+      jianjie: "学校信息",
+      zilaio:"学校资料",
       pic: require("../assets/banner.png"),
       color: "",
       mark: 0, //比对图片索引的变量
