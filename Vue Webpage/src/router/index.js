@@ -5,6 +5,8 @@ import Home_page from '../views/Home_page.vue'
 import ditu from '../views/ditu.vue'
 import Teachers from '../views/Teachers.vue'
 
+import Teachermore from '../views/Teachermore.vue'
+
 Vue.use(Router)
 
 export default new Router({
@@ -30,6 +32,10 @@ export default new Router({
             name: 'Teachers',
             component: Teachers
         },
-
+        {
+            path: '/Teachermore',
+            name: 'Teachermore',
+            component: Teachermore
+        },
     ]
 })

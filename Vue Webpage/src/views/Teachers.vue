@@ -10,13 +10,12 @@ import Homeheader from "../components/Homeheader";
 import Teacher from "../components/Teacher";
 import TeacherNav from "../components/TeacherNav";
 
-
 export default {
   name: "Teachers",
   data() {
     return {};
   },
-  components: {Homeheader,Teacher,TeacherNav }
+  components: {Homeheader,Teacher,TeacherNav}
 };
 </script>
 <style>
