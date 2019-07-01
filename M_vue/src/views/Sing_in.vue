@@ -77,18 +77,16 @@ export default {
           name: this.name,
           password: this.password
         })
-        // console.log(name)
-        // console.log(password)
-        // console.log(body)
-        .then(res => {
-          if (res.data == "登录成功") {
-            this.$router.push({ name: "Home_page" });
+        .then(res =>{
+          if (res.data == '登录成功') {
+            this.$router.push({ name: 'Home_page' });
           }
-          if (res.data == "用户不存在") {
-            alert("用户不存在");
+          console.log(res.data)
+          if (res.data == '用户不存在') {
+            alert('用户不存在');
           }
-          if (res.data == "密码错误！") {
-            alert("密码错误！");
+          if (res.data == '密码错误！') {
+            alert('密码错误！');
           }
         })
         .catch(err => {
@@ -99,7 +97,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 /* input::-webkit-input-placeholder {
   padding-left: 30px;
 } */
@@ -209,7 +207,7 @@ export default {
 .Sing_in .copyright .footerlist {
   float: left;
   list-style: none;
-  width: 7%;
+  width: 8%;
   font-size: 13px;
 }
 .Sing_in .copyright .footerlist a {

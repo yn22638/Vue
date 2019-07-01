@@ -1,17 +1,21 @@
 <template>
   <div class="ditubanner">
-    <img :src="ditu" alt="" class="weizhi">
+    <BaiduMap></BaiduMap>
   </div>
 </template>
 
 <script>
+import BaiduMap from '../components/BaiduMap';
 export default {
   name: "ditubanner",
-  data() {
-    return {
-      fanhui: require("../assets/fanhui.png"),
-      ditu:require("../assets/学校位置.png")
-    };
+  // data() {
+  //   return {
+  //     fanhui: require("../assets/fanhui.png"),
+  //     ditu:require("../assets/学校位置.png")
+  //   };
+  // }
+  components:{
+    BaiduMap,
   }
 };
 </script>
@@ -22,10 +26,5 @@ export default {
   width: 91.1%;
   height: 77%;
 }
-.ditubanner .weizhi{
-    margin-top: 50px;
-    margin-left: 11%;
-    width: 79%;
-    height: 94%;
-}
+
 </style>

@@ -5,16 +5,16 @@
         <router-link to="Home" :style="[color]">{{shouye}}</router-link>
       </li>
       <li>
-        <router-link to="/">{{student}}</router-link>
+        <router-link to="/Students">{{student}}</router-link>
       </li>
       <li>
-        <router-link to="/">{{teacher}}</router-link>
+        <router-link to="/Teachers">{{teacher}}</router-link>
       </li>
       <li>
-        <router-link to="/">{{liuyan}}</router-link>
+        <router-link to="/Messageboard">{{liuyan}}</router-link>
       </li>
       <li>
-        <router-link to="/">{{school}}</router-link>
+        <router-link to="/Bbs">{{school}}</router-link>
       </li>
       <li>
         <router-link to="/">{{shezhi}}</router-link>
@@ -49,7 +49,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .HomeNav {
   float: left;
   width: 8.9%;

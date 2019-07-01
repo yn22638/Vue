@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import BaiduMap from 'vue-baidu-map'
+
+Vue.use(BaiduMap, {
+    ak: "ahZE79YeVpwoP15lASa5D7K1SX98zo6R"
+})
 
 Vue.use(ElementUI)
 

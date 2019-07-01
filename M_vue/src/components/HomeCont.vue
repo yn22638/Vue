@@ -226,7 +226,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .HomeCont {
   float: left;
   height: 95.4%;
@@ -315,7 +315,7 @@ export default {
   margin-top: 1%;
 }
 .HomeCont .footer .left p {
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 7px;
 }
 .HomeCont .footer .left .p2 {
@@ -323,7 +323,7 @@ export default {
 }
 .HomeCont .footer .pic {
   float: left;
-  width: 35%;
+  width: 34%;
   height: 78%;
   margin-left: 26px;
   margin-top: 30px;
@@ -345,7 +345,7 @@ export default {
   margin-top: 1%;
 }
 .HomeCont .footer .right p {
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 7px;
 }
 .HomeCont .footer .right .p2 {
